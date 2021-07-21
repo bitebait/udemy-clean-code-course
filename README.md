@@ -1,4 +1,4 @@
-# 📚 Meu repositório de estudos - Python Clean Coding 🐍
+# 📚🐍 Meu repositório de estudos - Python Clean Coding
 
 Repositório para praticar todo conteúdo absorvido durante o curso ["Python Clean Coding"](https://www.udemy.com/course/python-clean-coding) na plataforma Udemy.
 
