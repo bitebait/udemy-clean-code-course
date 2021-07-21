@@ -16,8 +16,6 @@ Repositório para praticar todo conteúdo absorvido durante o curso ["Python Cle
 - **SOC** -  Separation of Concerns.
 - **NIH** - Not Invented Here.
 
-<br>
-
 * * *
 
 ## ✍️ Refatoração
@@ -26,13 +24,9 @@ Repositório para praticar todo conteúdo absorvido durante o curso ["Python Cle
 
 A refatoração tem como objetivo melhorar a estrutura (fundação) de um código sem alterar seu comportamento. Ao refatorar temos como objetivo limpar o código, tornando mais fácil de compreender, fazendo com que seja mais barato e rápido manter e consequentemente diminuindo problemas causados por bugs.
 
-<br>
-
 ### - Por que? 🤔
 
 Refatorar ajuda no amadurecimento do código, melhorando continuamente o design do software. Ajuda encontrar bugs, mantém o código limpo e consequentemente melhora o entendimento daquilo que foi escrito.
-
-<br>
 
 ### - Algumas situações onde pode haver refatoração...
 - Renomear arquivos.
@@ -41,8 +35,6 @@ Refatorar ajuda no amadurecimento do código, melhorando continuamente o design 
 - Alterar assinaturas de métodos.
 - Atualizar contratos entre métodos e classes.
 - Mover a logica para cima na cadeia de herança.
-
-<br>
 
 * * *
 
@@ -56,15 +48,11 @@ Refatorar ajuda no amadurecimento do código, melhorando continuamente o design 
 - Planejamento, revisão e inclusão de recursos .
 - Debbugging.
 
-<br>
-
 ### ❌ Contras
 
 - Os comentários apodrecem com o tempo. (seu comentário pode não refletir o momento atual do código).
 - Adiciona sobrecarga (isso pode ser mitigado). 
 - Adiciona ruído (apenas quando apodrecem).
-
-<br>
 
 ** *Exemplos retirados do curso ["Python Clean Coding - Udemy"](https://www.udemy.com/course/python-clean-coding)*
 #### Comentários inúteis:
@@ -76,7 +64,6 @@ Get Active Users
 def get_active_users(users):
 	return [user for user in users if user.active]
 ```
-
 
 #### Sem "porquê":
 
@@ -127,20 +114,15 @@ for x in items:
 	do_something(x)
 ```
 
-
-<br>
-
 * * *
 
 ## 🚦  TDD - Test-driven development (benefício a longo prazo)
-
 
 
 ### - O que é? 🤔
 
 Basicamente se baseia em pequenos ciclos de desenvolvimento, onde para cada nova funcionalidade desenvolvida escreve-se primeiros os testes antes mesmo de qualquer código. O teste inicial irá falhar(Red), então escrevemos um código que fará o teste passar(Green). Após o teste passar, é feita a refatoração(Refactor), onde as boas práticas serão aplicadas garantindo um código limpo, coeso e com baixo acoplamento. 
 
-<br>
 
 ### - Por que? 🤔
 
@@ -153,7 +135,6 @@ Utilizar TDD duranto o desenvolvimento do seu projeto pode ter muitos benefício
 - Maior produtividade, já que gastará menos tempo caçando bugs e com depuradores.
 - Ajuda a documentar aquilo que está sendo feito, melhorando o entendimento do propósito do código.
 
-<br>
 
 ### ✔️ Boas Práticas
 
@@ -164,18 +145,14 @@ Utilizar TDD duranto o desenvolvimento do seu projeto pode ter muitos benefício
 - Execute seus testes com frequência para garantir que você nao tenha testes que falham intermitentemente.
 - Evite dependências entre os testes. Executa-los de forma aleatória garantirá que seus testes não possuem dependências.
 
-
-<br>
-
 * * *
 
 ## ✒️  Nomeando...
 
 ** *Exemplos retirados do curso ["Python Clean Coding - Udemy"](https://www.udemy.com/course/python-clean-coding)*
 
-<br>
-
 ### - Váriaveis
+
 * * *
 
 ####  ❌ Exemplo ruim
@@ -189,9 +166,8 @@ n = "William"
 first_name = "William"
 ```
 
-<br>
-
 ### - Nomeie suas váriaveis de maneira clara
+
 * * *
 
 ####  ❌ Exemplo ruim - Oq significa o parâmetro 'u'?
@@ -205,9 +181,9 @@ get_page(u)
 URL = 'https://github.com'
 get_page(URL)
 ```
-<br>
 
 ### - Seja consistente
+
 * * *
 
 ####  ❌ Exemplo ruim
@@ -228,6 +204,7 @@ get_product_record()
 Os nomes das funções devem dizer o que estão fazendo com precisão e devem indicar o que é devolvido.
 
 * * *
+
 ####  ❌ Exemplo ruim
 ```python
 class Validation:
@@ -240,7 +217,6 @@ validator = Validation()
 # Oq 'handle' faz?
 validator.handle(5, 6)
 ```
-<br>
 
 #### ✔️ Bom exemplo
 ```python
