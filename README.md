@@ -8,19 +8,6 @@ Repositório para praticar todo conteúdo absorvido durante o curso ["Python Cle
 
 * * *
 
-## ✔️ Boas Práticas
-
-- Escreva testes claros e confiáveis, livres de bugs e que acompanhem o desenvolvimento do projeto. Lembre-se, nós passamos mais tempo lendo códigos que escrevendo.
-- Mantenha os testes simples (Baby Steps).
-- Escreva nomes descritivos para os testes, que descrevam de maneira simples e clara aquilo que esta sendo testado.
-- Você deve ter uma meta de 100% de cobertura de código em funções com lógica real, evitando testar simples getters/setters.
-- Execute seus testes com frequência para garantir que você nao tenha testes que falham intermitentemente.
-- Evite dependências entre os testes. Executa-los de forma aleatória garantirá que seus testes não possuem dependências.
-- Mantenha seu código o mais limpo possível, coeso e com baixo acoplamento.
-
-<br>
-
-* * *
 ## 📖 Acrônimos Importantes
 
 - **DRY** - Don't Repeat Yourself.
@@ -165,6 +152,17 @@ Utilizar TDD duranto o desenvolvimento do seu projeto pode ter muitos benefício
 - Mais confiança durante a correção de bugs.
 - Maior produtividade, já que gastará menos tempo caçando bugs e com depuradores.
 - Ajuda a documentar aquilo que está sendo feito, melhorando o entendimento do propósito do código.
+
+<br>
+
+### ✔️ Boas Práticas
+
+- Escreva testes claros e confiáveis, livres de bugs e que acompanhem o desenvolvimento do projeto. Lembre-se, nós passamos mais tempo lendo códigos que escrevendo.
+- Mantenha os testes simples (Baby Steps).
+- Escreva nomes descritivos para os testes, que descrevam de maneira simples e clara aquilo que esta sendo testado.
+- Você deve ter uma meta de 100% de cobertura de código em funções com lógica real, evitando testar simples getters/setters.
+- Execute seus testes com frequência para garantir que você nao tenha testes que falham intermitentemente.
+- Evite dependências entre os testes. Executa-los de forma aleatória garantirá que seus testes não possuem dependências.
 
 
 <br>
